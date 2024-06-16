@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entertain the World with Innovative Ideas.">
+    <meta name="keywords" content="Entertainment, Innovation, Digital Age, Software Products">
+    <meta name="author" content="Vylx Media">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Vylx Media">
+    <meta property="og:description" content="Entertain the World with Innovative Ideas.">
+    <meta name="theme-color" content="#F7C548">
+    <script src="particles.min.js"></script>
+
+    <title>Vylx Media</title>
+
+    <style>
+        .container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0A0A0A;
+            color: #FFFFFF;
+            line-height: 1.6;
+            margin: 0;
+            position: relative;
+        }
+
+        #particles-js {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-color: #0A0A0A; 
+            background-image: url(''); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 800px; 
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1; 
+        }
+
+        header {
+            padding: 80px 0;
+            text-align: left;
+            margin-left: 36px;
+            background-color: transparent;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative; 
+            z-index: 2; 
+        }
+
+        header h1 {
+            font-size: 4em;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.5em;
+            color: #CCCCCC;
+        }
+
+        .highlight {
+            color: #F7C548;
+        }
+
+        .highlight-2 {
+            color: #E94E77;
+        }
+
+        .highlight-3 {
+            color: #7FDBDA;
+        }
+        .about {
+    background-color: transparent;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin: 50px auto; 
+    width: fit-content; 
+            border: #FFFFFF 2px solid;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #000000 transparent; 
+}
+
+
+
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #FFFFFF; 
+        }
+
+        .about p {
+            font-size: 1.2em;
+            color: #CCCCCC;
+            max-width: 600px; 
+        }
+
+        .services {
+            padding: 50px 20px;
+            position: relative; 
+            z-index: 1; 
+            border-bottom: 1px solid #333; 
+        }
+
+        .services h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .service {
+            background-color: #141414;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+        }
+
+        .service h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1.1em;
+            color: #CCCCCC;
+        }
+
+        footer {
+            background-color: #141414;
+            color: #CCCCCC;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            .about h2,
+            .services h2 {
+                font-size: 2em;
+            }
+
+            .service h3 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>
+        <div class="container">
+            <h1>Vylx Media</h1>
+            <p><span style="color: #FF5722;">Make</span> the <span style="color: #03A9F4;">Internet</span> more <span style="color: #FFEB3B;">fun</span>.</p>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <span class="highlight">Vylx Media</span>. We are dedicated to <span class="highlight-2">transforming</span> the world with <span class="highlight-3">cutting-edge solutions</span>.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>LegendNation</h3>
+                <p>Join our thriving <span class="highlight">Minecraft community</span> and explore new adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vylx Media. All rights reserved.</p>
+    </footer>
+
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+        });
+    </script>
+</body>
+</html>
